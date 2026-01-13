@@ -10,7 +10,11 @@
         h1 { color: #2c3e50; }
         h2 { color: #34495e; font-size: 1.2em; margin-top: 20px; }
         .nav { margin-bottom: 20px; padding: 10px; background: #f8f9fa; border-radius: 8px; text-align: center; }
-        .nav a { margin: 0 10px; text-decoration: none; color: #007bff; font-weight: bold; }
+        .nav a { margin: 0 5px; text-decoration: none; color: #007bff; font-weight: bold; font-size: 0.9em; }
+        /* Mobil uyumluluk için link aralıkları */
+        @media (max-width: 600px) {
+            .nav a { display: inline-block; margin: 5px; }
+        }
     </style>
 </head>
 <body>
@@ -18,7 +22,9 @@
     <div class="nav">
         <a href="#en">🇬🇧 English</a> | 
         <a href="#tr">🇹🇷 Türkçe</a> | 
-        <a href="#es">🇪🇸 Español</a>
+        <a href="#es">🇪🇸 Español</a> |
+        <a href="#pt">🇧🇷 Português</a> |
+        <a href="#fr">🇫🇷 Français</a>
     </div>
 
     <div id="en" class="lang-section">
@@ -81,6 +87,48 @@
 
         <h2>5. Contacto</h2>
         <p>Para consultas de privacidad:</p>
+        <p>📧 <strong>kelimeseruvenidestek@gmail.com</strong></p>
+    </div>
+
+    <div id="pt" class="lang-section">
+        <h1>Política de Privacidade</h1>
+        <p><strong>Última atualização:</strong> 07 de novembro de 2025</p>
+
+        <h2>1. Informações que coletamos</h2>
+        <p>Coletamos apenas endereços de e-mail e senhas quando você cria uma conta premium para fins de backup e verificação.</p>
+
+        <h2>2. Como usamos as informações</h2>
+        <p>Seus dados são usados exclusivamente para autenticação da conta, restauração de compras e suporte ao cliente.</p>
+
+        <h2>3. Segurança de dados</h2>
+        <p>Sua senha é criptografada e armazenada com segurança. Não compartilhamos seus dados pessoais com terceiros.</p>
+
+        <h2>4. Direitos do usuário (Exclusão)</h2>
+        <p>Você tem o direito de solicitar a exclusão de seus dados a qualquer momento. Para fazer isso, entre em contato conosco por e-mail.</p>
+
+        <h2>5. Contato</h2>
+        <p>Para dúvidas sobre privacidade ou solicitações de exclusão de dados:</p>
+        <p>📧 <strong>kelimeseruvenidestek@gmail.com</strong></p>
+    </div>
+
+    <div id="fr" class="lang-section">
+        <h1>Politique de Confidentialité</h1>
+        <p><strong>Dernière mise à jour :</strong> 07 novembre 2025</p>
+
+        <h2>1. Informations que nous collectons</h2>
+        <p>Nous collectons uniquement les adresses e-mail et les mots de passe lorsque vous créez un compte premium à des fins de sauvegarde et de vérification.</p>
+
+        <h2>2. Utilisation des informations</h2>
+        <p>Vos données sont utilisées uniquement pour l'authentification du compte, la restauration de vos achats et le support client.</p>
+
+        <h2>3. Sécurité des données</h2>
+        <p>Votre mot de passe est crypté et stocké en toute sécurité. Nous ne partageons pas vos données personnelles avec des tiers.</p>
+
+        <h2>4. Droits de l'utilisateur (Suppression)</h2>
+        <p>Vous avez le droit de demander la suppression de vos données à tout moment. Pour ce faire, veuillez nous contacter par e-mail.</p>
+
+        <h2>5. Contact</h2>
+        <p>Pour toute question concernant la confidentialité ou les demandes de suppression de données :</p>
         <p>📧 <strong>kelimeseruvenidestek@gmail.com</strong></p>
     </div>
 
